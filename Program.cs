@@ -15,10 +15,6 @@ namespace Bookstore
 
             // Add services to the container.
 
-            builder.Services.AddControllers().AddNewtonsoftJson(options =>
-                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
-            );
-
             builder.Services.AddDbContext<bookstoreContext>(
             options =>
             {
