@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Do not include binaries
+bin
+
 # User-specific files
 *.rsuser
 *.suo
